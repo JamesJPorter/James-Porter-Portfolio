@@ -3,8 +3,8 @@ import React from 'react'
 export default function Navbar() {
   return (
 <div>
-      <nav class="navbar navbar-expand-lg bg-light" id="navDiv">
-    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg bg-light container-fluid">
+    <div class="container-fluid" id="navDiv">
         <a class="navbar-brand" href="/#">James Porter - Fullstack Developer</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -15,7 +15,7 @@ export default function Navbar() {
             <a class="nav-link" href="#MyWork">My Work</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#AboutMe">About Me</a>
+            <a class="nav-link" href="#aboutMeDiv">About Me</a>
             </li>
             {/* <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="/#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

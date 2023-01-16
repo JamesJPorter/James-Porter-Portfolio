@@ -47,7 +47,8 @@
 }
 
 #navDiv{
-  background-color: var(--indigo-dye);
+  background-color: var(--dark-sky-blue);
+  border-radius: 10px;
 }
 
 #content {
@@ -56,17 +57,32 @@
 }
 
 #heroImg {
-  max-width: 40%;
+  max-width: 100%;
+
 }
 
 #aboutMeDiv{
   margin-top: 2rem;
-  margin-right: 3rem;
-  margin-left: 3rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  background-color: var(--indigo-dye);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+#projectDiv {
+  margin-top: 2rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  background-color: var(--sapphire-blue);
+  padding: 2rem;
+  border-radius: 10px;
 }
 
 #aboutMeCard {
   border-style: none;
+  background-color: var(--gainsboro);
+  
 }
 
 /* #cardBtn {
