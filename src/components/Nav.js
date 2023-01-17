@@ -15,7 +15,7 @@ export default function Navbar({currentPage, handlePageChange}) {
             <a class="nav-link" href="#AboutMe" onClick={() => handlePageChange('AboutMe')} className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}>About Me</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#MyWork" onClick={() => handlePageChange('MyWork')} className={currentPage === 'MyWork' ? 'nav-link active' : 'nav-link'}>My Work</a>
+            <a class="nav-link" href="#Projects" onClick={() => handlePageChange('Projects')} className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}>My Work</a>
             </li>
             {/* <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="/#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
