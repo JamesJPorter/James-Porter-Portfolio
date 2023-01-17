@@ -7,19 +7,14 @@
 --dark-sky-blue: #81c3d7ff;
 }
 
-.App {
-  text-align: center;
+#root {
+  padding: 0;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.imgDiv {
+  max-width:100%;
+  max-height:100%;
 }
 
 .App-header {
@@ -51,29 +46,85 @@
   border-radius: 10px;
 }
 
+#featuredWork {
+    position: relative;
+}
+
+.projectImg {
+  /* flex-shrink: 0; */
+   max-width: 100%; 
+    max-height: 100%;
+   /*max-width: 100%;*/
+   border-radius: 10px;
+}
+
+#featuredHeader {
+  /* position: absolute; */
+  color: black;
+  background-color: var(--sapphire-blue);
+  padding-left: 35px; 
+  padding-right: 35px; 
+  border-radius: 10px;
+  max-height: 10%;
+}
+
 #content {
-  margin-right: 3rem;
-  margin-left: 3rem;
+  /* margin-right: 3rem;
+  margin-left: 3rem; */
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+#content::-webkit-scrollbar {
+  width: 0!important;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+#content::-webkit-scrollbar-thumb {
+  background: transparent; /* Optional: just make scrollbar thumb invisible */
+}
+
+@-moz-document url-prefix() {
+  #content {
+  scrollbar-width: none;
+  scrollbar-color: transparent;
+}
+}
+
+.pageSection {
+  height: 100vh;
+  display: flex;
+  scroll-snap-align: start;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 #heroImg {
   max-width: 100%;
-
 }
 
 #aboutMeDiv{
-  margin-top: 2rem;
+  /* min-height: 100vh; */
+  /* margin-top: 2rem;
   margin-right: 1rem;
-  margin-left: 1rem;
+  margin-left: 1rem; */
   background-color: var(--indigo-dye);
   padding: 2rem;
   border-radius: 10px;
 }
 
 #projectDiv {
-  margin-top: 2rem;
+  /* min-height: 100vh; */
+  /* margin-top: 2rem;
   margin-right: 1rem;
-  margin-left: 1rem;
+  margin-left: 1rem; */
+  background-color: var(--sapphire-blue);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+#featuredDiv {
   background-color: var(--sapphire-blue);
   padding: 2rem;
   border-radius: 10px;
@@ -82,8 +133,12 @@
 #aboutMeCard {
   border-style: none;
   background-color: var(--gainsboro);
-  
 }
+
+/* #projectDiv > .project {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+} */
 
 /* #cardBtn {
   max-width: 50%;

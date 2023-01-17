@@ -2,10 +2,10 @@ import React from 'react'
 
 export default function Projects() {
   return (
-    <div id="projectDiv" class="row">
+    <div id="projectDiv" class="row pageSection">
     {/* <div>AboutMe</div> */}
     
-    <div class="col-12 col-sm-6 d-flex justify-content-center align-items-center">
+    <div class="col-6 col-sm-6 d-flex justify-content-center align-items-center project">
     <div class="card" id="aboutMeCard">
   <div class="card-body">
     <h5 class="card-title">BirdsEye</h5>
@@ -13,16 +13,16 @@ export default function Projects() {
     {/* <a href="/#" class="btn btn-success" id="cardBtn">Click here to see my work</a> */}
   </div>
     </div>
-    </div>
-
-    <div class="col-12 col-sm-6 d-flex justify-content-center align-items-center">
+    <div class="col-12 col-sm- d-flex justify-content-center align-items-center project imgDiv">
     <img src="./universal-scheduler.png" class="img-fluid rounded float-end" id="heroImg" alt="..."></img>
     </div>
+    </div>
 
-    <div class="col-12 col-sm-6 d-flex justify-content-center align-items-center">
+
+    <div class="col-6 col-sm-6 d-flex justify-content-center align-items-center project">
+    <div class="col-6 col-sm-6 d-flex justify-content-center align-items-center project imgDiv">
     <img src="./selfie.jpg" class="img-fluid rounded float-end" id="heroImg" alt="..."></img>
     </div>
-    <div class="col-12 col-sm-6 d-flex justify-content-center align-items-center">
     <div class="card" id="aboutMeCard">
   <div class="card-body">
     <h5 class="card-title">Hello! My name is James Porter,</h5>

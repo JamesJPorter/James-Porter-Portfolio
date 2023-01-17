@@ -1,8 +1,9 @@
 // import logo from './logo.svg';
 import './App.css';
-import Navbar from './Nav'
-import Projects from './Projects'
-import AboutMe from './AboutMe'
+import Navbar from './components/Nav'
+import Projects from './components/pages/Projects'
+import AboutMe from './components/pages/AboutMe'
+import FeaturedProject from './components/pages/FeaturedProject';
 import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <Navbar />
     <div id="content">
     <AboutMe />
+    <FeaturedProject />
     <Projects />
 
     </div>

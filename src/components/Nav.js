@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Navbar() {
+export default function Navbar({currentPage, handlePageChange}) {
   return (
 <div>
       <nav class="navbar navbar-expand-lg bg-light container-fluid">
@@ -12,10 +12,10 @@ export default function Navbar() {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-            <a class="nav-link" href="#projectDiv">My Work</a>
+            <a class="nav-link" href="#AboutMe" onClick={() => handlePageChange('AboutMe')} className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}>About Me</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#aboutMeDiv">About Me</a>
+            <a class="nav-link" href="#MyWork" onClick={() => handlePageChange('MyWork')} className={currentPage === 'MyWork' ? 'nav-link active' : 'nav-link'}>My Work</a>
             </li>
             {/* <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="/#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -29,7 +29,7 @@ export default function Navbar() {
             </ul>
             </li> */}
             <li class="nav-item">
-            <a href="#Contact-Me" class="nav-link">Contact Me</a>
+            <a href="#Contact" class="nav-link" onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact Me</a>
             </li>
         </ul>
         {/* <form class="d-flex" role="search">
