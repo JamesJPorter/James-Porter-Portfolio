@@ -58,19 +58,7 @@
    border-radius: 10px;
 }
 
-#featuredHeader {
-  /* position: absolute; */
-  color: black;
-  background-color: var(--sapphire-blue);
-  padding-left: 35px; 
-  padding-right: 35px; 
-  border-radius: 10px;
-  max-height: 10%;
-}
-
 #content {
-  /* margin-right: 3rem;
-  margin-left: 3rem; */
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   height: 100vh;
@@ -94,10 +82,11 @@
 
 .pageSection {
   height: 100vh;
+  width: 100vw;
   display: flex;
   scroll-snap-align: start;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 #heroImg {
@@ -105,27 +94,22 @@
 }
 
 #aboutMeDiv{
-  /* min-height: 100vh; */
-  /* margin-top: 2rem;
-  margin-right: 1rem;
-  margin-left: 1rem; */
+  height: 100vh;
+  max-width: 100vw;
   background-color: var(--indigo-dye);
   padding: 2rem;
   border-radius: 10px;
 }
 
 #projectDiv {
-  /* min-height: 100vh; */
-  /* margin-top: 2rem;
-  margin-right: 1rem;
-  margin-left: 1rem; */
+  scroll-snap-align: start;
   background-color: var(--sapphire-blue);
   padding: 2rem;
   border-radius: 10px;
 }
 
 #featuredDiv {
-  background-color: var(--sapphire-blue);
+  background-color: var(--indigo-dye);
   padding: 2rem;
   border-radius: 10px;
 }
@@ -134,12 +118,3 @@
   border-style: none;
   background-color: var(--gainsboro);
 }
-
-/* #projectDiv > .project {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-} */
-
-/* #cardBtn {
-  max-width: 50%;
-} */
