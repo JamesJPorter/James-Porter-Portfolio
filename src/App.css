@@ -10,6 +10,8 @@
 #root {
   padding: 0;
   margin: 0;
+  /* width: 100vw;
+  height: 100vh; */
 }
 
 .imgDiv {
@@ -17,7 +19,7 @@
   max-height:100%;
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -26,36 +28,24 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
+} */
+/* 
 .App-link {
   color: #61dafb;
-}
+} */
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 #navDiv{
   background-color: var(--dark-sky-blue);
   border-radius: 10px;
-}
-
-#featuredWork {
-    position: relative;
-}
-
-.projectImg {
-  /* flex-shrink: 0; */
-   max-width: 100%; 
-    max-height: 100%;
-   /*max-width: 100%;*/
-   border-radius: 10px;
 }
 
 #content {
@@ -91,6 +81,14 @@
 
 #heroImg {
   max-width: 100%;
+}
+
+.contactForm{
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+  height: 100vh;
+  width: 100vw;
 }
 
 #aboutMeDiv{

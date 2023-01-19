@@ -30,6 +30,7 @@ export default function PortfolioContainer() {
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
+      
     </div>
   )
 }
