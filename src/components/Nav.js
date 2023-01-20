@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Navbar({currentPage, handlePageChange}) {
   return (
-<div>
+<div id="navContainer">
       <nav class="navbar navbar-expand-lg bg-light container-fluid">
     <div class="container-fluid" id="navDiv">
         <a class="navbar-brand" href="/#">James Porter - Fullstack Developer</a>

@@ -18,11 +18,11 @@ const ContactForm = () => {
   };
 
   return (
-    <div className='ContactForm'>
-      <div className='container'>
-        <div className='row'>
+    <div className='ContactForm  contactContainer'>
+      <div className='container contactFormContainer'>
+        <div className='row contactFormContainerRow'>
           <div className='col-12 text-center'>
-            <div className='contactForm'>
+            <div className='contactForm contactElementContainer'>
               <form id='contact-form' onSubmit={handleSubmit(onSubmit)} noValidate>
                 {/* Row 1 of form */}
                 <div className='row formRow'>
@@ -88,6 +88,7 @@ const ContactForm = () => {
                       {...register('message', {
                         required: true
                       })}
+                      class="messageContent"
                       className='form-control formInput'
                       placeholder='Message'
                     ></textarea>
