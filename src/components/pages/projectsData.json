@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1, 
+        "title": "Sojourner", 
+        "image": "./Sojourner.png", 
+        "imageAlt":"Sojourner login screen screenshot",
+        "description": "Sojourner is a travel coordination app designed to save you and your trip mates time when coordinating group trips. Sojourner facilitates the easy aggregation of travel planning informaton such as travel arrangements, hotel accommodation, local activities and associated costs.  Sojourner displays trip information to all users associated with any trip and makes the act of sharing information with your trip mates far easier than the usual messy messaging threads, emails and more.", 
+        "link": "https://sojourner-app.herokuapp.com/"
+    }, 
+    {
+        "id": 2, 
+        "title": "BirdsEye", 
+        "image": "./universal-scheduler.png", 
+        "imageAlt":"BirdsEye app screenshot",
+        "description": "BirdsEye is a project management and employee tracker tool that enables managers and small business owner to model their organizations structure, track their staff roster and setup projects while tracking their progress. BirdEye allows managers to send new staff email invites to their organization and provides managers access to tools inaccessible to lower level staff.", 
+        "link": "https://github.com/gulogulo208/universal-scheduler"
+    }, 
+    {
+        "id": 3, 
+        "title": "Quickly", 
+        "image": "./QuicklyMain.jpg", 
+        "imageAlt":"Quicky front page screenshot",
+        "description": "Quickly is an app designed to help users utilize their kitchens contents to the fullest. Load up quickly and input the food you find in your cuppboard. Quickly will then find recipes which contain ingredients you already have on hand. Nothing need go to waste!", 
+        "link": "https://arama89.github.io/Group-Project/"
+    }
+]
